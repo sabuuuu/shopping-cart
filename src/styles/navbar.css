@@ -1,0 +1,32 @@
+@font-face {
+    font-family: fbold;
+    src: url(font/fbold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: fregular;
+    src: url(font/fregular.ttf);
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:rgba(158,16,26,255);
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding-LEFT: 1em;
+}
+
+.links .lin{
+    text-decoration: none;
+    color: WHITE;
+    font-size: 25px;
+    font-family:fregular, sans-serif ;
+    margin-left: 20px;
+}
